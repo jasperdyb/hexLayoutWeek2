@@ -1,3 +1,18 @@
-.icon {
-  margin: 8px;
+.icon-list {
+  display: flex;
+
+  .icon {
+    margin: 0 8px;
+  }
+  a:first-child {
+    .icon {
+      margin-left: 0 !important;
+    }
+  }
+
+  a:last-child {
+    .icon {
+      margin-right: 0 !important;
+    }
+  }
 }
