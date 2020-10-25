@@ -258,6 +258,19 @@ p :lang(zh-TW) {
   line-height: 42px;
 }
 
+.footer {
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding-top: 64px;
+  padding-bottom: 80px;
+}
+.footer a {
+  display: block;
+  color: inherit;
+  text-decoration: none;
+}
+
 .icon-list {
   display: flex;
 }
