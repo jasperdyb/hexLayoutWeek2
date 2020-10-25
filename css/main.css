@@ -239,16 +239,6 @@ p :lang(zh-TW) {
 .brand p {
   margin-bottom: 68px;
 }
-.brand__portfolio {
-  padding: 0 18%;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-}
-.brand__portfolio img {
-  margin-right: 24px;
-  margin-bottom: 40px;
-}
 
 .icon-list {
   display: flex;
@@ -261,6 +251,17 @@ p :lang(zh-TW) {
 }
 .icon-list a:last-child .icon {
   margin-right: 0 !important;
+}
+
+.display {
+  padding: 0 18%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.display__flex-box {
+  margin-right: 24px;
+  margin-bottom: 40px;
 }
 
 .portfolio {

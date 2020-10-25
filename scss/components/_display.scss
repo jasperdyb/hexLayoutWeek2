@@ -1,0 +1,11 @@
+.display {
+  padding: 0 18%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+
+  &__flex-box {
+    margin-right: 24px;
+    margin-bottom: 40px;
+  }
+}
