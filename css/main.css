@@ -168,6 +168,9 @@ p {
   line-height: 1.5;
   font-weight: bolder;
 }
+p :lang(zh-TW) {
+  font-size: 20px;
+}
 
 .cover {
   background-image: url("https://hexschool.github.io/webLayoutTraining1st/week2/banner.png");
@@ -221,6 +224,30 @@ p {
   background: #891818;
   display: inline-block;
   margin-right: 16px;
+}
+
+.brand {
+  text-align: center;
+  background-color: black;
+  color: white;
+  padding-top: 64px;
+  padding-bottom: 120px;
+}
+.brand .sub-title {
+  margin-bottom: 32px;
+}
+.brand p {
+  margin-bottom: 68px;
+}
+.brand__portfolio {
+  padding: 0 18%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.brand__portfolio img {
+  margin-right: 24px;
+  margin-bottom: 40px;
 }
 
 .icon-list {

@@ -1,0 +1,27 @@
+.brand {
+  text-align: center;
+  background-color: black;
+  color: white;
+  padding-top: 64px;
+  padding-bottom: 120px;
+
+  .sub-title {
+    margin-bottom: 32px;
+  }
+
+  p {
+    margin-bottom: 68px;
+  }
+
+  &__portfolio {
+    padding: 0 18%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+    img {
+      margin-right: 24px;
+      margin-bottom: 40px;
+    }
+  }
+}
