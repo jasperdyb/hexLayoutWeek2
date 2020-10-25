@@ -141,10 +141,6 @@ table {
   font-family: "Roboto";
 }
 
-:lang(zh-TW) {
-  font-family: "Noto Sans";
-}
-
 .sub-title {
   font-size: 24px;
   line-height: 42px;
@@ -239,6 +235,28 @@ p :lang(zh-TW) {
 .brand p {
   margin-bottom: 68px;
 }
+.brand img {
+  margin-bottom: 40px;
+}
+
+.works {
+  text-align: center;
+  padding-top: 64px;
+  padding-bottom: 160px;
+}
+.works .title {
+  margin-bottom: 24px;
+}
+.works p {
+  margin-bottom: 56px;
+}
+.works img {
+  margin-bottom: 16px;
+}
+.works__description {
+  font-style: 20px;
+  line-height: 42px;
+}
 
 .icon-list {
   display: flex;
@@ -261,7 +279,6 @@ p :lang(zh-TW) {
 }
 .display__flex-box {
   margin-right: 24px;
-  margin-bottom: 40px;
 }
 
 .portfolio {

@@ -1,0 +1,22 @@
+.works {
+  text-align: center;
+  padding-top: 64px;
+  padding-bottom: 160px;
+
+  .title {
+    margin-bottom: 24px;
+  }
+
+  p {
+    margin-bottom: 56px;
+  }
+
+  img {
+    margin-bottom: 16px;
+  }
+
+  &__description {
+    font-style: 20px;
+    line-height: 42px;
+  }
+}
