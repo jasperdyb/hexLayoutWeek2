@@ -2,8 +2,7 @@
    v2.0 | 20110126
    License: none (public domain)
 */
-@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,500;1,700;1,900&display=swap");
 html,
 body,
 div,
@@ -137,35 +136,41 @@ table {
   border-spacing: 0;
 }
 
-:lang(en) {
+.roboto-black {
   font-family: "Roboto";
+  font-weight: 900;
 }
-
-.sub-title {
-  font-size: 24px;
-  line-height: 42px;
-  font-weight: bolder;
+.roboto-bold {
+  font-family: "Roboto";
+  font-weight: 700;
 }
-
-.title {
-  font-size: 64px;
-  line-height: 75px;
-  font-weight: bolder;
+.roboto-medium {
+  font-family: "Roboto";
+  font-weight: 500;
 }
 
 .main-title {
   font-size: 80px;
   line-height: 94px;
-  font-weight: 950;
 }
 
-p {
+.title {
+  font-size: 64px;
+  line-height: 75px;
+}
+
+.sub-title {
+  font-size: 24px;
+  line-height: 42px;
+}
+
+.description {
   font-size: 24px;
   line-height: 1.5;
-  font-weight: bolder;
 }
-p :lang(zh-TW) {
+.description:lang(zh-TW) {
   font-size: 20px;
+  line-height: 1.5;
 }
 
 .cover {
@@ -253,10 +258,6 @@ p :lang(zh-TW) {
 .works img {
   margin-bottom: 16px;
 }
-.works__description {
-  font-style: 20px;
-  line-height: 42px;
-}
 
 .footer {
   background-color: black;
@@ -298,8 +299,4 @@ p :lang(zh-TW) {
 }
 .display__flex-box {
   margin-right: 24px;
-}
-
-.portfolio {
-  font-style: italic;
 }
