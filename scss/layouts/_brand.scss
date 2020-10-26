@@ -5,15 +5,20 @@
   padding-top: 64px;
   padding-bottom: 120px;
 
-  .sub-title {
+  &__sub-title {
+    @extend .sub-title;
     margin-bottom: 32px;
   }
 
-  p {
+  &__description {
+    @extend .description;
     margin-bottom: 68px;
   }
 
-  img {
-    margin-bottom: 40px;
+  &__display {
+    @extend .display;
+    img {
+      margin-bottom: 40px;
+    }
   }
 }

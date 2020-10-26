@@ -1,10 +1,12 @@
+$gap-width: 24px;
+
 .display {
-  padding: 0 18%;
+  padding: 0 ((360px - ($gap-width/2))/1920px) * 100vw;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
 
   &__flex-box {
-    margin-right: 24px;
+    margin: 0 $gap-width/2;
   }
 }

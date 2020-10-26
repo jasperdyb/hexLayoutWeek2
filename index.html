@@ -9,15 +9,15 @@
   <body class="portfolio roboto">
     <div class="cover">
       <div class="cover__container">
-        <h1>
+        <h1 class="cover__title">
           <div class="sub-title roboto-bold">Here's</div>
-          <div class="cover__title main-title roboto-black">JOANNE</div>
+          <div class="main-title roboto-black">JOANNE</div>
         </h1>
-        <p class="cover__description description roboto-bold">
+        <p class="cover__description roboto-bold">
           Founder of “XXXD Official’’ <br />
           & Graphic Designer
         </p>
-        <div class="icon-list">
+        <div class="cover__icon-list">
           <a href=""
             ><img
               class="icon"
@@ -46,40 +46,35 @@
       </div>
     </div>
     <div class="about">
-      <h2 class="title roboto-medium">About</h2>
-      <div class="about_block">
-        <img
-          src="https://hexschool.github.io/webLayoutTraining1st/week2/photo.png"
-          alt="portrait"
-        />
-      </div>
-      <h3 class="sub-title roboto-bold">
+      <h2 class="about__title roboto-medium">About</h2>
+      <img
+        class="about__portrait"
+        src="https://hexschool.github.io/webLayoutTraining1st/week2/photo.png"
+        alt="portrait"
+      />
+      <h3 class="about__sub-title roboto-bold">
         <div>Joanne Chen</div>
         <div>1997/10/10</div>
       </h3>
-      <div class="about_block">
-        <p class="description roboto-bold">
-          National Hex School Normal University <br />
-          Department of Visual Design
-        </p>
-      </div>
-      <div class="about_block">
-        <ul class="position-list sub-title roboto-bold">
-          <li>Founder of ‘’XXXD Official’’</li>
-          <li>Graphic Designer</li>
-          <li>Graphic Intern of Hex School</li>
-        </ul>
-      </div>
+      <p class="about__description roboto-bold">
+        National Hex School Normal University <br />
+        Department of Visual Design
+      </p>
+      <ul class="about__list sub-title roboto-bold">
+        <li>Founder of ‘’XXXD Official’’</li>
+        <li>Graphic Designer</li>
+        <li>Graphic Intern of Hex School</li>
+      </ul>
     </div>
     <div class="brand roboto-medium">
       <h2 class="title">My Brand ‘’XXXD’’</h2>
-      <h3 class="sub-title">Just Keep XXXD Everyday</h3>
-      <p class="description" lang="zh-TW">
+      <h3 class="brand__sub-title">Just Keep XXXD Everyday</h3>
+      <p class="brand__description" lang="zh-TW">
         2020 年創立的個人服飾品牌<br />
         引領叛逆少年開啟與社會對話的窗口<br />
         主打概念潮流T-Shirt
       </p>
-      <div class="display">
+      <div class="brand__display">
         <img
           class="display__flex-box"
           src="https://hexschool.github.io/webLayoutTraining1st/week2/brand_img1.png"
@@ -98,12 +93,12 @@
       </div>
     </div>
     <div class="works roboto-medium">
-      <h2 class="title">Other Works</h2>
-      <p class="description" lang="zh-TW">
+      <h2 class="works__title">Other Works</h2>
+      <p class="works__description" lang="zh-TW">
         2016-2020 年累積的作品<br />
         海報/廣告/攝影/LOGO/3D
       </p>
-      <div class="display">
+      <div class="works__display">
         <div class="display__flex-box">
           <img
             src="https://hexschool.github.io/webLayoutTraining1st/week2/work_img1.png"
@@ -163,11 +158,13 @@
       </div>
     </div>
     <div class="footer roboto-medium">
-      <h2 class="title">Contact</h2>
-      <p class="description">
+      <h2 class="footer__title">Contact</h2>
+      <p class="footer__description">
         <a href="mailto:">Mail：xxxd@hexschool.com</a>
       </p>
-      <p class="description"><a href="tel:+">Phone Number：0910123456</a></p>
+      <p class="footer__description">
+        <a href="tel:+">Phone Number：0910123456</a>
+      </p>
     </div>
   </body>
 </html>

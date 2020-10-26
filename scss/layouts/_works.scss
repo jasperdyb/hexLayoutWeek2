@@ -3,15 +3,20 @@
   padding-top: 64px;
   padding-bottom: 160px;
 
-  .title {
+  &__title {
+    @extend .title;
     margin-bottom: 24px;
   }
 
-  p {
+  &__description {
+    @extend .description;
     margin-bottom: 56px;
   }
 
-  img {
-    margin-bottom: 16px;
+  &__display {
+    @extend .display;
+    .description {
+      margin-bottom: 16px;
+    }
   }
 }

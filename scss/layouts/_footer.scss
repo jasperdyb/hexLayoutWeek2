@@ -14,8 +14,13 @@
     }
   }
 
-  .title,
-  p {
+  &__title {
+    @extend .title;
+    padding-bottom: 16px;
+  }
+
+  &__description {
+    @extend .description;
     padding-bottom: 16px;
   }
 }
